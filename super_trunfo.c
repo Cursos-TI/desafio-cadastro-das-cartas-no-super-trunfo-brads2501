@@ -37,7 +37,7 @@ int main(){
     scanf("%f", &pib);
 
     densidadePopulacional = populacao / area;
-    pibpercapita = pib / populacao;
+    pibperCapita = pib / populacao;
     
     printf("\n");
 
@@ -67,7 +67,7 @@ int main(){
     scanf("%f", &pib);
 
     densidadePopulacional = populacao / area;
-    pibpercapita = pib / populacao;
+    pibperCapita = pib / populacao;
 
     printf("\n");
 
