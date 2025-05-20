@@ -14,6 +14,7 @@ int main(){
     char estado2[50], codigoCarta2[15], cidade2[50];
     unsigned long int populacao2, pontosTuristicos2;
     float area2, pib2, densidadePopulacional2, pibperCapita2, superPoder2;
+    int escolha;
 
     // Solicitando dados ao usuário, para a carta 01.
 
@@ -77,6 +78,13 @@ int main(){
 
     printf("\n");
 
+    printf("1 - PONTOS TURÍSTICOS \n ");
+    printf("2 - PIB per CAPITA \n");
+    printf("DIGITE O NÚMERO DA SUA ESCOLHA: ");
+    scanf("%d", &escolha);
+
+    printf("\n");
+    
     // Exibindo os dados das cartas.
     
     printf("CARTA 01 \n");
